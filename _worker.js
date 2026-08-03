@@ -1507,7 +1507,7 @@ async function UsagePanel管理面板(TOKEN) {
 
     <div class="container">
         <div class="glass-card summary-card">
-            <h1>Cloudflare 额度汇总</h1>
+            <h1>额度汇总</h1>
             <div id="summary-content">
                 <div class="loading-wrap"><div class="loading-spinner"></div></div>
             </div>
@@ -1524,7 +1524,7 @@ async function UsagePanel管理面板(TOKEN) {
         </div>
 
         <div class="footer">
-            由 <a href="https://github.com/cmliu/CF-Workers-UsagePanel" target="_blank" rel="noopener" class="footer">CF-Workers-UsagePanel</a> 强力驱动
+            由 <a href="https://k.guaq.cn" target="_blank" rel="noopener" class="footer">CF</a> 核爆驱动
         </div>
     </div>
 
@@ -2044,7 +2044,7 @@ async function UsagePanel主页(TOKEN) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloudflare 额度使用统计</title>
+    <title>核爆 使用统计</title>
     <link rel="icon" href="https://cf-assets.www.cloudflare.com/dzlvafdwdttg/5uhbWfhjepEoUiM9phzhgJ/9658369030266cde9e35a3c5d4e4beb2/cloud-upload.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -3054,10 +3054,10 @@ async function UsagePanel主页(TOKEN) {
     <div class="container">
         <div class="glass-card">
             <header>
-                <h1>☁️ Cloudflare 额度统计</h1>
+                <h1>☁️ 核爆 ☁️</h1>
                 <div class="status-badge">
                     <div class="status-dot"></div>
-                    <span>System Online</span>
+                    <span>地球 Online</span>
                 </div>
             </header>
 
@@ -3069,7 +3069,7 @@ async function UsagePanel主页(TOKEN) {
             </div>
 
             <div class="footer">
-                由 <a href="https://github.com/cmliu/CF-Workers-UsagePanel" target="_blank" rel="noopener" class="footer">CF-Workers-UsagePanel</a> 强力驱动
+                由 <a href="https://k.guaq.cn" target="_blank" rel="noopener" class="footer">CF</a> 核爆驱动
             </div>
         </div>
     </div>
@@ -3193,7 +3193,7 @@ async function UsagePanel主页(TOKEN) {
             const kv = resources.kv || {};
             const r2 = resources.r2 || {};
             return '<details class="quota-details">' +
-                '<summary class="quota-summary"><span class="quota-summary-title">资源额度细节</span><span class="quota-summary-meta">KV / D1 / R2</span></summary>' +
+                '<summary class="quota-summary"><span class="quota-summary-title">核爆额度细节</span><span class="quota-summary-meta">KV / D1 / R2</span></summary>' +
                 '<div class="quota-body"><div class="quota-list">' +
                     renderQuotaGroup('KV', formatNumber(kv.namespaces || 0) + ' 个命名空间', [
                         renderQuotaBar('读取（今日）', kv.reads, kv.readsLimit),
